@@ -1,0 +1,23 @@
+.blue {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: flex;
+}
+
+.vert {
+  background-color: red;
+  height: 100%;
+  width: 20px;
+  position: sticky;
+  left: 30px;
+}
+
+.horiz {
+  background-color: red;
+  height: 20px;
+  width: 100%;
+  position: sticky;
+  top: 30px;
+}
