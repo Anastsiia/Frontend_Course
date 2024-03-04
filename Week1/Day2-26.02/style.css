@@ -1,5 +1,30 @@
-#example {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
+  .page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .navBar{
+    position: sticky;
+    top: 0;
+    padding: 1px 0px;
+    background-color: gray;
+  }
+
+  .navBar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .infoPanel {
+    background-color: black;
+    padding: 1px;
+    color: white;
+  }
+  
+  .textComponent {
+    flex-grow: 1; 
+    padding: 20px;
+  }
+  
