@@ -11,7 +11,7 @@ countries. Store the returned values in 3 different
 variables, and log them to the console. */
 
 function countryInfo(country, population, capitalCity) {
-    return country + " has " + population + " million people and its capital city is " + capitalCity
+    return `${country} has ${population} million people and its capital city is ${capitalCity}`;
 }
 
 let israelInfo = countryInfo("Israel", 9.364, "Jerusalim");
