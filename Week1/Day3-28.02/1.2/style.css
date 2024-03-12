@@ -1,0 +1,23 @@
+.parent {
+  background-color: blueviolet;
+  width: 300px;
+  height: 200px;
+}
+
+.graph_el {
+  background-color: grey;
+  width: 20px;
+}
+
+
+#Money, #Time {
+  position: sticky;
+}
+#Money {
+  top: 0;
+  left: 0;
+}
+#Time {
+  bottom:  0;
+  right:  0;
+}
