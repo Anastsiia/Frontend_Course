@@ -12,19 +12,19 @@ every year that is divisible by 4 is a leap year except for the
 ones that are also divisible by 100 unless it is divisible by 400.
 Example: 2012 is the leap year 2100 is not But 2400 is.*/
 
-function boom(number) {
-   for (let i = 1; i <= number; i++) {
-      if (i%7 == 0) {
-         let currentNumberStr = i.toString();
-         if (currentNumberStr.includes("7")) {
-            console.log("BOOM-BOOM")
-         } else {
-            console.log("BOOM")
-         }
+function isLeapYear(year) {
+      if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {
+            console.log("It is indeed a leap year")
       } else {
-         console.log(i)
+         console.log("This is not a leap year.")
       }
-   }
 }
 
-boom(18);
+console.log("2012:")
+isLeapYear(2012);
+console.log("2100:")
+isLeapYear(2100);
+console.log("2400:")
+isLeapYear(2400);
+console.log("2024:")
+isLeapYear(2024);
