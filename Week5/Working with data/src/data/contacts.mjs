@@ -1,4 +1,4 @@
-export const contacts = {
+ const contacts = {
   results: [
     {
       gender: 'female',
@@ -3418,3 +3418,4 @@ export const contacts = {
   ],
   info: { seed: '90b7306a6b94654f', results: 100, page: 1, version: '1.4' },
 };
+export default contacts;
